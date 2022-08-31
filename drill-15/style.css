@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.column1,
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.column2 {
+  align-items: flex-end;
+}
+
+.gray {
+  width: 360px;
+  height: 360px;
+  background: #5f5f5f;
+}
+
+.black {
+  width: 180px;
+  height: 180px;
+  background: #000;
+}

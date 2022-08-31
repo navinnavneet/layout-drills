@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+}
+.container-1 {
+  justify-content: flex-end;
+}
+
+.container-2 {
+  justify-content: center;
+}
+
+.container-3 {
+  justify-content: flex-start;
+}
+
+.box {
+  background: black;
+  width: 300px;
+  height: 300px;
+}

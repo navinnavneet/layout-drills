@@ -1,0 +1,17 @@
+.div1 {
+  width: 350px;
+  height: 350px;
+  background: #5f5f5f;
+  margin: 100px auto;
+  position: relative;
+}
+
+.div2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

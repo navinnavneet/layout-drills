@@ -1,0 +1,16 @@
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.div1 {
+  background: black;
+  position: relative;
+}
+
+.div2 {
+  background: #5f5f5f;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

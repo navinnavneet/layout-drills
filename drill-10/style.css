@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.div1 {
+  background: #5f5f5f;
+  width: 900px;
+  height: 400px;
+  margin: 10rem auto;
+  position: relative;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background: black;
+  position: absolute;
+  top: 50%;
+}
+
+.div2 {
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.div3 {
+  right: 25%;
+  transform: translate(50%, -50%);
+}
